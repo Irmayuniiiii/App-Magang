@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background Circle with Gradient -->
+    <path android:pathData="M60,0L60,0A60,60 0,0 1,120 60L120,60A60,60 0,0 1,60 120L60,120A60,60 0,0 1,0 60L0,60A60,60 0,0 1,60 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startColor="#1976D2"
+                android:endColor="#2196F3"
+                android:type="linear"
+                android:angle="45"/>
+        </aapt:attr>
+    </path>
+
+    <!-- Avatar Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,30C51.72,30 45,36.72 45,45C45,53.28 51.72,60 60,60C68.28,60 75,53.28 75,45C75,36.72 68.28,30 60,30"/>
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,65C47.5,65 35,71.25 35,85V90H85V85C85,71.25 72.5,65 60,65"/>
+</vector>

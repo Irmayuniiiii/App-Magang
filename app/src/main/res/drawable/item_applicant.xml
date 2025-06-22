@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#E0E0E0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header with Profile -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@drawable/card_gradient"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Profile Image -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/default_avatar"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/CircularImageView"
+                app:strokeWidth="2dp"
+                app:strokeColor="#FFFFFF"/>
+
+            <!-- Name and Major -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:id="@+id/tvApplicationName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Irmayuniiiii"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#263238"/>
+
+                <TextView
+                    android:id="@+id/tvMajor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teknik Informatika"
+                    android:textSize="14sp"
+                    android:textColor="#78909C"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <!-- Application Status Chip -->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/tvApplicationStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diproses"
+                android:textSize="12sp"
+                app:chipBackgroundColor="#E3F2FD"
+                android:textColor="#1976D2"
+                app:chipMinHeight="32dp"/>
+        </LinearLayout>
+
+        <!-- Content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- University Info -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_school"
+                    app:tint="#78909C"/>
+
+                <TextView
+                    android:id="@+id/tvUniversity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Universitas Example"
+                    android:textSize="14sp"
+                    android:textColor="#263238"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <!-- Application Date -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_calender"
+                    app:tint="#78909C"/>
+
+                <TextView
+                    android:id="@+id/tvApplicationDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diajukan pada 9 Februari 2025"
+                    android:textSize="14sp"
+                    android:textColor="#263238"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <!-- View Detail Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnViewDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lihat Detail"
+                android:textAllCaps="false"
+                app:iconGravity="textStart"
+                app:cornerRadius="12dp"
+                android:backgroundTint="#1976D2"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

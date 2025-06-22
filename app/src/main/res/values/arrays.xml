@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="universities">
+        <item>Universitas Indonesia</item>
+        <item>Institut Teknologi Bandung</item>
+        <item>Universitas Gadjah Mada</item>
+        <item>Institut Teknologi Sepuluh Nopember</item>
+        <!-- Add more universities as needed -->
+    </string-array>
+
+    <string-array name="jenis_kelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="majors">
+        <item>Teknik Informatika</item>
+        <item>Sistem Informasi</item>
+        <item>Ilmu Komputer</item>
+        <item>Teknik Komputer</item>
+        <!-- Add more majors as needed -->
+    </string-array>
+</resources>

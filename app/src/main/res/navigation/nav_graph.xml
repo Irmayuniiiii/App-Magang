@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Lamaran Fragment -->
+    <fragment
+        android:id="@+id/lamaranFragment"
+        android:name="com.yuni.magangdiskominfoapp.LamaranFragment"
+        android:label="Lamaran"
+        tools:layout="@layout/fragment_lamaran">
+        <action
+            android:id="@+id/action_lamaranFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+
+    <!-- Dashboard Fragment -->
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.yuni.magangdiskominfoapp.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+</navigation>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#0A219E</color>
+    <color name="grey">#757575</color>
+    <color name="grey_light">#FFFFFF</color>
+    <color name="btn">#0721A8</color>
+    <color name="primaryDark">#1976D2</color>
+    <color name="accent">#FF4081</color>
+    <color name="primary_dark">#88C3F1</color>
+
+
+    <color name="background_color">#F8F9FC</color>
+
+    <!-- Add these colors if you haven't already -->
+    <color name="status_pending_bg">#E3F2FD</color>
+    <color name="status_pending_text">#1976D2</color>
+    <color name="status_accepted_bg">#E8F5E9</color>
+    <color name="status_accepted_text">#2E7D32</color>
+    <color name="status_rejected_bg">#FFEBEE</color>
+    <color name="status_rejected_text">#C62828</color>
+
+    <color name="status_pending">#FFA500</color>  <!-- Oranye -->
+    <color name="status_revision">#FF9800</color>  <!-- Jingga -->
+    <color name="status_internship">#2196F3</color>  <!-- Biru -->
+    <color name="status_completed">#707070</color>  <!-- Ungu -->
+
+    <color name="primary">#1E88E5</color>
+        <color name="background">#FFFFFF</color>
+
+        <!-- Text Colors -->
+        <color name="text_primary">#212121</color>
+        <color name="text_secondary">#757575</color>
+        <color name="text_tertiary">#9E9E9E</color>
+
+        <!-- Status Colors -->
+        <color name="status_review">#FFA000</color>
+        <color name="status_accepted">#43A047</color>
+        <color name="status_rejected">#E53935</color>
+
+        <!-- Info Card Colors -->
+        <color name="info_background">#E3F2FD</color>
+        <color name="info_text">#1976D2</color>
+        <color name="info_icon">#1976D2</color>
+    <color name="stroke_color">#A50000</color>
+
+        <color name="divider">#EEEEEE</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="textPrimary">#263238</color>
+    <color name="textSecondary">#78909C</color>
+    <color name="backgroundColor">#F8FAFF</color>
+
+    <color name="primary_variant">#000051</color>
+    <color name="secondary">#2196F3</color>
+    <color name="secondary_variant">#0069C0</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#000000</color>
+    <color name="on_surface">#000000</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="info_stroke">#1A000000</color>
+    <color name="status_chip_background">@color/primary</color>
+
+    <!-- Custom colors for the text input box stroke -->
+    <color name="text_input_box_stroke">#5C6BC0</color>
+
+</resources>
